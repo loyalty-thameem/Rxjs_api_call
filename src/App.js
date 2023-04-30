@@ -21,8 +21,8 @@ const App = ({ userId }) => {
     return () => {
       subscription.unsubscribe();
     };
-  }, [userId]);
-
+  }, [userId]); 
+console.log('Hello');
   return (
     <div>
       {data ? (
